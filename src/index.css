@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+/* :root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
+
+.blog-container{
+  color: #8b008b;
+  max-width:  600px;
+  margin: 20px auto;
+  border: 5px;
+  /* box-shadow: 3px 4px 3px 5px rgb(225, 215, 215); */
+  padding: 20px;
+}
+
+.blog-container:hover{
+  box-shadow: 1px 3px 5px rgb(0,0,0,1);
+}
